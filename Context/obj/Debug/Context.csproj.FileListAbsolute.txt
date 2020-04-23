@@ -12,3 +12,4 @@ D:\Projects\website\Context\obj\Debug\Context.pdb
 D:\Projects\website\Context\obj\Debug\Context.Migrations.initial.resources
 D:\Projects\website\Context\obj\Debug\Context.csproj.GenerateResource.cache
 D:\Projects\Website\Context\obj\Debug\Context.csprojAssemblyReference.cache
+D:\Projects\Website\Context\obj\Debug\Context.Migrations.addedimage.resources
