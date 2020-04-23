@@ -1,0 +1,15 @@
+D:\Projects\website\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+D:\Projects\website\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\Projects\website\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\Projects\website\BusinessLogic\bin\Debug\Context.dll
+D:\Projects\website\BusinessLogic\bin\Debug\EntityFramework.dll
+D:\Projects\website\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\website\BusinessLogic\bin\Debug\Context.pdb
+D:\Projects\website\BusinessLogic\bin\Debug\Context.dll.config
+D:\Projects\website\BusinessLogic\bin\Debug\EntityFramework.xml
+D:\Projects\website\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\website\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+D:\Projects\website\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Projects\website\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+D:\Projects\website\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\Projects\website\BusinessLogic\obj\Debug\BusinessLogic.pdb

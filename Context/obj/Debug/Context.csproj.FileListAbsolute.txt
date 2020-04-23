@@ -1,0 +1,14 @@
+D:\Projects\website\Context\bin\Debug\Context.dll.config
+D:\Projects\website\Context\bin\Debug\Context.dll
+D:\Projects\website\Context\bin\Debug\Context.pdb
+D:\Projects\website\Context\bin\Debug\EntityFramework.dll
+D:\Projects\website\Context\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\website\Context\bin\Debug\EntityFramework.xml
+D:\Projects\website\Context\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\website\Context\obj\Debug\Context.csproj.CoreCompileInputs.cache
+D:\Projects\website\Context\obj\Debug\Context.csproj.CopyComplete
+D:\Projects\website\Context\obj\Debug\Context.dll
+D:\Projects\website\Context\obj\Debug\Context.pdb
+D:\Projects\website\Context\obj\Debug\Context.Migrations.initial.resources
+D:\Projects\website\Context\obj\Debug\Context.csproj.GenerateResource.cache
+D:\Projects\Website\Context\obj\Debug\Context.csprojAssemblyReference.cache
