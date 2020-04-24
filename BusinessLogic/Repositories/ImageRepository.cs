@@ -21,5 +21,33 @@ namespace BusinessLogic.Repositories
             var images = GetAll();
             return images;
         }
+
+        public IEnumerable<Image> GetThreeMostRecentImages()
+        {
+            var allImages = GetAll();
+            List<Image> images = new List<Image>();
+            List<Image> mostRecent = new List<Image>();
+           
+            foreach (var image in allImages)
+            {
+                images.Add(image);
+                
+            }
+
+            images.Reverse();
+
+            int count = 0;
+            foreach (var image in images)
+            {
+                mostRecent.Add(image);
+                count++;
+                if (count == 3)
+                {
+                    break;
+                }
+            }
+
+            return mostRecent;
+        }
     }
 }

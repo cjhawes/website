@@ -33,5 +33,18 @@ namespace BusinessLogic.Services
 
             return imageList;
         }
+
+        public IEnumerable<ImageModel> GetThreeMostRecentImages()
+        {
+            var images = _imageRepository.GetThreeMostRecentImages();
+            List<ImageModel> imageList = new List<ImageModel>();
+
+            foreach (var image in images)
+            {
+                imageList.Add(new ImageModel(image));
+            }
+
+            return imageList;
+        }
     }
 }

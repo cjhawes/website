@@ -7,5 +7,6 @@ namespace BusinessLogic.Services.Interfaces
     {
         ImageModel GetImageById(int id);
         IEnumerable<ImageModel> GetAllImages();
+        IEnumerable<ImageModel> GetThreeMostRecentImages();
     }
 }

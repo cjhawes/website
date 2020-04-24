@@ -7,5 +7,6 @@ namespace BusinessLogic.Repositories.Interfaces
     {
         Image GetImageById(int id);
         IEnumerable<Image> GetAllImages();
+        IEnumerable<Image> GetThreeMostRecentImages();
     }
 }

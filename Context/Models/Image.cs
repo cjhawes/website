@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Context.Models
 {
@@ -6,6 +7,9 @@ namespace Context.Models
     {
         public int ImageId { get; set; }
         public string ImageUrl { get; set; }
+        public string ImageTitle { get; set; }
+        public string ImageDescription { get; set; }
+        public DateTime ImageUploaded { get; set; }
 
         public ICollection<BlogPost> BlogPosts { get; set; }
     }
