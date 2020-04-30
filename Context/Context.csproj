@@ -55,6 +55,14 @@
     <Compile Include="Migrations\202004221731152_initial.designer.cs">
       <DependentUpon>202004221731152_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004232241567_added-image.cs" />
+    <Compile Include="Migrations\202004232241567_added-image.designer.cs">
+      <DependentUpon>202004232241567_added-image.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004232354367_updated-image-table.cs" />
+    <Compile Include="Migrations\202004232354367_updated-image-table.designer.cs">
+      <DependentUpon>202004232354367_updated-image-table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BlogPost.cs" />
     <Compile Include="Models\Image.cs" />
@@ -69,6 +77,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202004221731152_initial.resx">
       <DependentUpon>202004221731152_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004232241567_added-image.resx">
+      <DependentUpon>202004232241567_added-image.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004232354367_updated-image-table.resx">
+      <DependentUpon>202004232354367_updated-image-table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
