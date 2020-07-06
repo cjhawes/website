@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WebsiteDatabase-Web.config Connection String" description="WebsiteDatabase Connection String used in web.config by the application to access the database." defaultValue="Data Source=(local);Database=Website;User Id=WebsiteCom;Password=12345;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Projects\\Website\\Website\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebsiteDatabase']/@connectionString" />
+  </parameter>
+</parameters>

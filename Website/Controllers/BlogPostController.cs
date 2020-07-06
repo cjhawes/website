@@ -27,16 +27,16 @@ namespace Website.Controllers
             return Json(blogPost, SerializerSettings);
         }
 
-        public void Post([FromBody]string value)
-        {
-        }
+        //public void Post([FromBody]string value)
+        //{
+        //}
 
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+        //public void Put(int id, [FromBody]string value)
+        //{
+        //}
 
-        public void Delete(int id)
-        {
-        }
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

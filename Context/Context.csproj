@@ -63,7 +63,17 @@
     <Compile Include="Migrations\202004232354367_updated-image-table.designer.cs">
       <DependentUpon>202004232354367_updated-image-table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005051538225_AddedResearchModelTry.cs" />
+    <Compile Include="Migrations\202005051538225_AddedResearchModelTry.designer.cs">
+      <DependentUpon>202005051538225_AddedResearchModelTry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005052012375_AddedToDOModel.cs" />
+    <Compile Include="Migrations\202005052012375_AddedToDOModel.designer.cs">
+      <DependentUpon>202005052012375_AddedToDOModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ToDo.cs" />
+    <Compile Include="Models\Research.cs" />
     <Compile Include="Models\BlogPost.cs" />
     <Compile Include="Models\Image.cs" />
     <Compile Include="Models\Interfaces\IWebsiteContext.cs" />
@@ -83,6 +93,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004232354367_updated-image-table.resx">
       <DependentUpon>202004232354367_updated-image-table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005051538225_AddedResearchModelTry.resx">
+      <DependentUpon>202005051538225_AddedResearchModelTry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005052012375_AddedToDOModel.resx">
+      <DependentUpon>202005052012375_AddedToDOModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

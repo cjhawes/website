@@ -138,6 +138,8 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ToDoController.cs" />
+    <Compile Include="Controllers\ResearchController.cs" />
     <Compile Include="Controllers\BlogPostController.cs" />
     <Compile Include="Controllers\ImageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -160,6 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ConnorHawesWebApi - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
